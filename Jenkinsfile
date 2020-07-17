@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    environments
+    environments {
         DOCKER_IMAGE_NAME = "jduarte104/train-schedule"
     }
     stages {
